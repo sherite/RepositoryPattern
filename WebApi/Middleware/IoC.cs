@@ -1,8 +1,8 @@
-﻿using DataAccess.Generic;
-using Microsoft.Extensions.DependencyInjection;
-
-namespace WebApi.Middleware
+﻿namespace WebApi.Middleware
 {
+    using DataAccess.Generic;
+    using Microsoft.Extensions.DependencyInjection;
+
     public static class IoC
     {
         public static IServiceCollection AddDependency(this IServiceCollection services)

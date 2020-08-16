@@ -1,14 +1,12 @@
 namespace WebApi
 {
     using Entities.DataContext;
-
     using Microsoft.AspNetCore.Builder;
     using Microsoft.AspNetCore.Hosting;
     using Microsoft.EntityFrameworkCore;
     using Microsoft.Extensions.Configuration;
     using Microsoft.Extensions.DependencyInjection;
     using Microsoft.Extensions.Hosting;
-
     using WebApi.Middleware;
 
     public class Startup
